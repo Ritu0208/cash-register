@@ -4,26 +4,45 @@
     box-sizing: border-box;
 }
 body{
-    color: #fff;
+    color: #334155;
     text-align: center;
-    background: linear-gradient(90deg, #010409 0%, #737470 100%);
+    /* background: linear-gradient(90deg, #010409 0%, #737470 100%); */
+    background-color: #fef3c7;
+    margin-top: 2%;
+    width: 100vw;
+    height: 100vh;
 }
+
 
 .container {
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 40vw;
     text-align: center;
     width: 100%;
     max-width: 50%;
     min-height: 200px;
     margin: auto;
-    padding: 1rem;
+    padding: 2rem;
+    border:1px solid #334155;
+    box-shadow:1px 1px 10px #334155;
+    /* background-color: red; */
 }
 
-h1, p {
-    color: white;
+h1{
+    color: #334155;
+    width: 20vw;
+    text-align: center;
+    border: 1px solid #334155;
+    padding: 10px 15px;
+    margin: auto;
 }
+p{
+    color: #334155;
+    text-align: center;
+    font-size: 18px;
+}
+
 
 .cashGivenDiv {
     display: none;
@@ -33,17 +52,23 @@ h1, p {
     display: none;
 }
 label{
-    color: var(--faint-green);
-    padding: 1rem;
+    color:#334155;
+    padding: 0.60rem 0rem;
     font-size: larger;
 }
 
 input{
-    width: 100%;
+    width: 50%;
     height: 50px;
     display: block;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    margin: auto;
+    outline: none;
+    border: 1px solid #334155;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 0px 20px;
 }
 
 button{
@@ -52,13 +77,14 @@ button{
     background-color:var(--faint-green);
     color: var(--dark-green);
     font-weight: bold;
-    margin: 1rem auto;
+    margin: 1rem 0rem auto;
     border: none;
 }
 
 table{
-    width: 100%;
+    width: 80%;
     table-layout: fixed;
+    margin:0rem  auto;
 }
 th,td{
     border: #ffffff solid 0.5px;
@@ -66,7 +92,7 @@ th,td{
 }
 
 caption{
-    padding: 1rem;
+    padding: 0.40rem 1rem;
     color: var(--faint-green);
 }
 
@@ -74,7 +100,7 @@ table, th, td{
     padding: 0.8rem;
     color: var(--dark-green);
     background-color:var(--faint-green);
-    border: 1px solid #ffffff ;
+    border: 1px solid #334155 ;
     border-collapse: collapse;
 }
 
